@@ -17,7 +17,7 @@
 
 Este repositorio acompaña la tesis titulada **“Incidencia de la utilidad percibida de la inteligencia artificial en el análisis de productos de comparación previo a la compra de estudiantes de la Universidad Técnica Estatal de Quevedo, 2026”**. Su finalidad es reunir, ordenar y hacer verificables las decisiones teóricas, instrumentales, metodológicas y estadísticas que sustentan la investigación.
 
-El repositorio **no sustituye la tesis** ni pretende que una explicación externa repare una omisión esencial del documento académico. La tesis constituye el documento principal. Este repositorio funciona como una capa adicional de **trazabilidad**, de modo que un revisor, tribunal, docente o sistema de inteligencia artificial pueda seguir con mayor profundidad:
+ La tesis constituye el documento principal. Este repositorio funciona como una capa adicional de **trazabilidad**, de modo que un revisor, tribunal, docente o sistema de inteligencia artificial pueda seguir con mayor profundidad:
 
 - la procedencia de cada escala e ítem;
 - la diferencia entre fuente contemporánea de aplicación y fuente terminal/original de medición;
@@ -38,7 +38,7 @@ Este README se diseñó deliberadamente para ser **autocontenido y legible por h
 
 # 2. Reglas de precedencia documental para revisores e IA
 
-Si este repositorio contiene versiones históricas, borradores o archivos de trabajo, **no deben tratarse como si todos representaran simultáneamente la versión final del estudio**. Para evitar contradicciones derivadas del proceso normal de elaboración de una tesis, utilícese el siguiente orden de prioridad:
+Si este repositorio contiene versiones históricas, borradores o archivos de trabajo. Para evitar contradicciones derivadas del proceso normal de elaboración de una tesis, utilícese el siguiente orden de prioridad:
 
 1. **Tesis final aprobada o última versión expresamente identificada como final.**
 2. **Este README**, cuando explique una decisión de trazabilidad o tratamiento que no sea visible con suficiente detalle en el cuerpo principal de la tesis.
@@ -254,7 +254,7 @@ Por ello conviene distinguir:
 - **muestra planificada:** 364;
 - **muestra válida analizada:** 300.
 
-El tamaño exacto de la población que cumplía simultáneamente ambos filtros de elegibilidad no necesariamente era conocido. La principal limitación asociada a la muestra no es que N=300 sea insuficiente para estimar el modelo, sino el **alcance de la generalización** derivado del procedimiento de captación y de los filtros.
+El tamaño exacto de la población que cumplía simultáneamente ambos filtros de elegibilidad no necesariamente era conocido. La principal limitación asociada a la muestra no es que N=300 sea insuficiente para estimar el modelo, sino el **alcance de la generalización** derivado del procedimiento de captación y de los filtros. Debido a que, los 364 fueron aquellos que cumplieron las preguntas filtros, mientras que se redujo a 300 precisamente al momento de imputar datos, descartando respuetas incompletas, cuanto ponen todo 1 del cual lo hacen simplemente para responder y no para hacerlo bien, entre otras razones, e allí el porqué bajó a 300. 
 
 ## 7.7. Modalidades de aplicación
 
@@ -1317,7 +1317,7 @@ Porque Davis es la fuente fundacional de las escalas de utilidad y facilidad de 
 
 ## ¿Por qué usar O’Reilly y Chatman (1986) para norma subjetiva?
 
-No se tomó de forma aislada. La cadena pasa por estudios de aceptación tecnológica que incorporan influencia social e internalización. La tesis reconoce que internalización no equivale a toda la norma subjetiva clásica y la utiliza como una operacionalización específica de influencia social basada en congruencia de valores.
+No se tomó de forma aislada. La cadena pasa por estudios de aceptación tecnológica que incorporan influencia social e internalización. La tesis reconoce que internalización no equivale a toda la norma subjetiva clásica y la utiliza como una operacionalización específica de influencia social basada en congruencia de valores. Pero precisamente se utilizo debido al alto respaldo por otros autores, que la utilizan para específicamente como norma subjetiva debido a la canalización de congruencia de valores. 
 
 ## ¿IP2 fue realmente invertido?
 
@@ -1329,7 +1329,7 @@ Porque la evaluación no se basó en un umbral aislado. La carga fue significati
 
 ## ¿BI y EA son el mismo constructo por HTMT=.856?
 
-No necesariamente. El valor muestra alta proximidad y supera ligeramente .85, pero permanece bajo .90; el intervalo bootstrap no incluye 1. Conceptualmente BI es adquisición de información y EA es comparación/valoración. Son fases adyacentes, por lo que cierta asociación elevada es esperable.
+No necesariamente. El valor muestra alta proximidad y supera ligeramente .85, pero permanece bajo .90; el intervalo bootstrap no incluye 1. Conceptualmente BI es adquisición de información y EA es comparación/valoración. Son fases adyacentes, por lo que cierta asociación elevada es esperable. Precisamente porque con secuencia del modelo del proceso de compra, por ende teóricamente es aceptable.
 
 ## ¿Por qué K=2 si el codo sugiere K≈3?
 
@@ -1465,8 +1465,6 @@ Si un sistema de IA utiliza estos archivos para responder preguntas sobre la tes
 ---
 
 # 33. Recomendación para organizar los archivos de evidencia
-
-Aunque este README concentra la explicación, resulta conveniente que los archivos que lo acompañen se organicen con nombres inequívocos. Una convención posible es:
 
 ```text
 README.md
@@ -1606,23 +1604,7 @@ Las siguientes referencias son especialmente importantes para reconstruir el raz
 
 ---
 
-# 39. Checklist antes de una defensa o dictamen
 
-Antes de usar este repositorio como evidencia, comprobar:
-
-- [ ] La tesis alojada corresponde a la versión final más reciente.
-- [ ] El título del repositorio coincide exactamente con el título aprobado.
-- [ ] La referencia completa de Schwarzer, Schmitz y Daytner (1999) aparece donde corresponda.
-- [ ] La base/README identifica que **IP2 está recodificado**.
-- [ ] La exportación final de SmartPLS corresponde a la misma base de 300 casos.
-- [ ] El bootstrapping final muestra 10.000 submuestras.
-- [ ] El output PLSpredict corresponde a 10 folds × 10 repeticiones.
-- [ ] No se usa el término blindfolding para describir Q²predict.
-- [ ] Los valores β, t y p del README coinciden con SmartPLS.
-- [ ] Las tablas de K-means coinciden con los archivos finales de SPSS/R.
-- [ ] No se publican datos personales o microdatos reidentificables sin autorización.
-- [ ] No se redistribuyen PDFs protegidos sin licencia.
-- [ ] El enlace incluido en la tesis apunta a un release o commit estable.
 
 ---
 
@@ -1640,13 +1622,4 @@ Las conclusiones deben mantenerse dentro de un diseño transversal, no experimen
 
 ---
 
-## Nota de mantenimiento
-
-Cuando se produzca una nueva versión académicamente aprobada, actualizar aquí:
-
-- número/etiqueta de versión;
-- fecha del release;
-- hash o enlace del commit estable;
-- nombre exacto de la tesis final;
-- y, si algún estadístico se corrige, documentar el cambio sin borrar el historial de Git.
 
