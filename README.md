@@ -1464,38 +1464,7 @@ Si un sistema de IA utiliza estos archivos para responder preguntas sobre la tes
 
 ---
 
-# 33. Recomendación para organizar los archivos de evidencia
 
-```text
-README.md
-
-tesis/
-  tesis_final_2026.pdf
-  tesis_final_2026.docx
-
-instrumento/
-  cuestionario_definitivo.pdf
-  matriz_trazabilidad_final.xlsx
-
-smartpls/
-  algoritmo_pls_final.xlsx
-  bootstrapping_10000_final.xlsx
-  plspredict_10x10_final.xlsx
-  imagen_modelo_final.png
-
-analisis_complementarios/
-  descriptivos.xlsx
-  kmeans_resultados.xlsx
-  silhouette_resultados.csv
-  welch_hedges_resultados.xlsx
-
-fuentes/
-  enlaces_doi.md           # opcional si se desea, no imprescindible
-```
-
-No es obligatorio utilizar exactamente estos nombres. Lo importante es que el repositorio permita identificar cuáles archivos son **finales**.
-
----
 
 # 34. Privacidad, datos personales y derechos de autor
 
